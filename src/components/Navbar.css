@@ -1,6 +1,6 @@
 .navbarPCls {
-    max-height: 100px;
-    min-height: 100px;
+    max-height: 80px;
+    min-height: 80px;
     display: flex;
     align-items: center;
 }
@@ -14,7 +14,7 @@
     margin: auto;
 }
 .navImageCls {
-    max-height: 35px;
+    max-height: 30px;
 }
 .navButtonAreaCls {
     display: flex;
