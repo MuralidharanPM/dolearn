@@ -1,0 +1,139 @@
+.FooterRightsArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #bfbdbd;
+    padding-top: 30px;
+}
+.FooterImgSec {
+    width: 125px;
+}
+.FooterImgSecCls {
+    max-width: -webkit-fill-available;
+}
+.FooterContSubArea {
+    display: flex;
+    justify-content: space-between;
+}
+.FooterContainerCls {
+    display: flex;
+    max-width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    background: #5169F5;
+    padding: 40px;
+    border-radius: 8px;
+}
+.FooterContainerHeader {
+    max-width: 50%;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+.FooterCOntainerHeaderButton {
+    display: flex;
+    align-items: center;
+}
+.FooterCOntainerHeaderButton button {
+    font-size: 15px;
+    background: #ffffff;
+    border: 0px;
+    outline: none;
+    font-weight: 600;
+    color: #000;
+    padding: 12px;
+    border-radius: 5px;
+}
+.FooterCCls {
+    padding: 80px 20px;
+}
+.FooterGCCls {
+    max-width: 1280px;
+    margin: auto;
+}
+.FooterSubTextBtns {
+    display: flex;
+    gap: 20px;
+}
+.FooterContSubArea {
+    margin: 40px 0px;
+}
+.FooterSubTextBtnCls {
+    border: 0px;
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.FooterTCsec {
+    display: flex;
+    gap: 20px;
+}
+.FooterTCSecCls {
+    border: 0px;
+    background: none;
+    font-size: 16px;
+}
+.FooterSubHandlesBtns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.FooterSubHandlesBtnClsFacebook {
+    content: "";
+    background-image: url("../assets/facebook.png");   
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px;
+    outline: none;
+}
+.FooterSubHandlesBtnClsTwitter {
+    content: "";
+    background-image: url("../assets/twitter.png");   
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px;
+    outline: none;
+}
+.FooterSubHandlesBtnClsVimeo {
+    content: "";
+    background-image: url("../assets/Vimeo.png");   
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px;
+    outline: none;
+}
+.FooterSubHandlesBtnClsYoutube {
+    content: "";
+    background-image: url("../assets/Youtube.png");   
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px;
+    outline: none;
+}
+.footerPCls::after {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    width: -webkit-fill-available;
+    height: 68%;
+    background-color: #EEF0FE;
+    z-index: -1;
+    border-bottom: 2px solid #EEF0FE;
+}
+.footerGPCls {
+    position: relative;
+    overflow: hidden;
+}

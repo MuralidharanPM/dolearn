@@ -1,0 +1,157 @@
+.courseOffPCls {
+    padding: 80px 20px 0px 20px;
+}
+.courseOffCCls {
+    max-width: 1280px;
+    margin: auto;
+}
+.uiuxCourseBannerHolder {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.uiuxCourseBannerHolder  img {
+    width: 70%;
+}
+.webbanner img {
+    width: 95% !important;
+}
+.uiuxCourseImgCls {
+    max-width: -webkit-fill-available;
+}
+.courseOffHeadTitleCls {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+}
+.courseOffSubHeaderTitleCls {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.courseIffBanContOneCls, .courseIffBanContTwoCls {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 32px;
+}
+.courseIffBanContOneCls {
+    max-width: 90%;
+    margin: auto;
+}
+.courseIffBanContTwoCls {
+    max-width: 80%;
+    margin: auto;
+}
+.courseOffFootBtnCls {
+    font-size: 20px;
+    background: #5169F5;
+    border: 0px;
+    outline: none;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+}
+.courseOffFootBtnHeadCls {
+    display: flex;
+    justify-content: center;
+}
+.courseOffHeadButtonsCls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    max-width: 70%;
+    margin-right: auto;
+}
+.courseBtnActive .uiuxCourseBtn::before {
+    content: "";
+    background-image: url("../assets/uiuxcourseactive.png");   
+    width: 45px;
+    height: 45px;
+    background-size: 30px 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.courseBtnInActive .uiuxCourseBtn::before {
+    content: "";
+    background-image: url("../assets/uiuxcourseinactive.png");   
+    width: 45px;
+    height: 45px;
+    background-size: 30px 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.courseBtnActive .webDevCourseBtn::before {
+    content: "";
+    background-image: url("../assets/webdevelopmentcourseactive.png");    
+    width: 45px;
+    height: 45px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+}
+.courseBtnInActive .webDevCourseBtn::before {
+    content: "";
+    background-image: url("../assets/webdevelopmentcourseinactive.png"); 
+    width: 45px;
+    height: 45px;
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+}
+.courseOffHeadButtonsCls button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+.courseBtnActive button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #6278F6;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+.courseBtnActive {
+    background-color: #DCE1FD;
+    border-radius: 10px;
+    padding: 8px;
+}
+.courseBtnInActive button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    color: #000000;
+}
+.courseBtnInActive {
+    background-color: #DCE1FD;
+    border-radius: 10px;
+    padding: 8px;
+}
+.courseOffBannerContCls {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.courseOffCCls::after {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    width: -webkit-fill-available;
+    height: 50%;
+    background-color: #EEF0FE;
+    z-index: -1;
+    border-top-left-radius: 50% 70px;
+    border-top-right-radius: 50% 70px;
+    border-bottom: 2px solid #EEF0FE;
+}
+.courseOffCCls {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 70px;
+}

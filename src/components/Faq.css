@@ -1,0 +1,89 @@
+.FaqContCardCls input:checked ~ .FaqContCardAnsCls {
+    display: block;
+    margin-top: 20px;
+}
+.FaqContCardCls input ~ .FaqContCardAnsCls {
+    display: none;
+}
+.FaqContCardCls input ~ label::after {
+    content: "";
+    background-image: url("../assets/faqUnchecked.png");   
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    min-width: 30px;
+    min-height: 30px;
+}
+.FaqContCardCls input:checked  ~ label::after {
+    content: "";
+    background-image: url("../assets/faqChecked.png");   
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    min-width: 30px;
+    min-height: 30px;
+}
+.faqPCls {
+    padding: 0px 20px;
+}
+.faqCCls {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.FaqheadersCls, .FaqContentPCls {
+    background: #F7F9FC;
+    padding: 25px;
+    border-radius: 8px;
+}
+.FaqContCardCls {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    width: 100%;
+    height: fit-content;
+}
+.FaqContCardCls input {
+    display: none;
+}
+.FaqContQuesHolder {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.faqQesLabel {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+}
+.FaqContentCCls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 50%;
+    align-content: baseline;
+}
+.FaqContentPCls {
+    display: flex;
+    gap: 20px;
+}
+.FaqheadersCls {
+    font-size: 32px;
+    font-weight: 700;
+}
+.FaqContCardAnsCls {
+    font-size: 18px;
+    font-weight: 400;
+}

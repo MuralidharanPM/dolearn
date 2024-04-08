@@ -1,0 +1,56 @@
+.homePgPCls {
+    padding: 0px 20px 80px 20px;
+}
+.homePgCCls {
+    max-width: 1280px;
+    margin: auto;
+    background-color: #EEF0FE;
+    border-bottom-left-radius: 50% 70px;
+    border-bottom-right-radius: 50% 70px;
+    border-bottom: 2px solid #EEF0FE;
+}
+.homePgImgHeadCls {
+    max-width: 50%;
+    display: flex;
+    margin: auto;
+}
+.homePgBannerCls {
+    max-width: -webkit-fill-available;
+}
+.homePgMainHeadCls {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 700;
+}
+.homePgSubHeadCls {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 500;
+    padding-bottom: 45px;
+}
+.homePgImgContCls {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 400;
+    padding-top: 45px;
+    max-width: 80%;
+    margin: auto;
+}
+.homePgImgContBtnCls {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.homePgImgContBtnCls button {
+    font-size: 20px;
+    background: #5169F5;
+    border: 0px;
+    outline: none;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+}

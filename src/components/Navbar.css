@@ -1,0 +1,67 @@
+.navbarPCls {
+    max-height: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+}
+.navbarCCls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+.navImageCls {
+    max-height: 35px;
+}
+.navButtonAreaCls {
+    display: flex;
+    gap: 45px;
+}
+.navbarBBtnCls {
+    font-size: 20px;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    font-weight: 400;
+}
+.navbarBBtnCls:hover {
+    font-size: 20px;
+    font-weight: 400;
+    color: #5169F5;
+}
+.navgetStartedBtn {
+    font-size: 17px;
+    background: #5169F5;
+    border: 0px;
+    outline: none;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+}
+.navgetStartedBtn::after {
+    content: "";
+    background-image: url("../assets/towardsRightArrow.png");
+    width: 15px;
+    height: 8px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-position: center;
+    background-size: cover;
+    animation: moveRight 2s infinite;
+}
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

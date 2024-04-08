@@ -1,0 +1,13 @@
+.vertical-carousel {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-item {
+    height: 100%;
+}
+.carousel-content {
+    height: -webkit-fill-available !important;
+}
+  

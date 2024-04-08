@@ -1,0 +1,44 @@
+.howPgCCls img {
+    max-width: 100%;
+}
+.howPgPCls {
+    padding: 80px 20px;
+}
+.howPgCCls {
+    max-width: 1280px;
+    margin: auto;
+}
+.howWeWorkHeaderCls {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.howweworkFootCls {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 75px;
+}
+.exploreBtnCls {
+    font-size: 20px;
+    background: #5169F5;
+    border: 0px;
+    outline: none;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+}
+.getStartBtnCls {
+    font-size: 20px;
+    background: #ffffff;
+    outline: none;
+    font-weight: 400;
+    color: #5169F5;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #5169F5;
+}
