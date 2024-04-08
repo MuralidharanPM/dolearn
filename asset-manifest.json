@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/dolearn/static/css/main.e8b47eca.css",
+    "main.js": "/dolearn/static/js/main.b949408a.js",
+    "static/js/453.941703d3.chunk.js": "/dolearn/static/js/453.941703d3.chunk.js",
+    "static/media/Webdevelopment.png": "/dolearn/static/media/Webdevelopment.1bbd1c7b3112902c5a87.png",
+    "static/media/caroImagefour.png": "/dolearn/static/media/caroImagefour.f7ac1ac2afe377827def.png",
+    "static/media/UIUXDevelopment.png": "/dolearn/static/media/UIUXDevelopment.02e9fd74de61019f36c5.png",
+    "static/media/caroImagefive.png": "/dolearn/static/media/caroImagefive.d31e881bb9ab8feb8699.png",
+    "static/media/caroImagetwo.png": "/dolearn/static/media/caroImagetwo.fa36ed29d6e1269a2a70.png",
+    "static/media/caroImageone.png": "/dolearn/static/media/caroImageone.2d0f8f9f6d675158c7ad.png",
+    "static/media/caroImagethree.png": "/dolearn/static/media/caroImagethree.087a892091ea98c6c7e4.png",
+    "static/media/homepagebanner.png": "/dolearn/static/media/homepagebanner.659c29f6ef1da84e60e0.png",
+    "static/media/dolearn-whiteborderpng.png": "/dolearn/static/media/dolearn-whiteborderpng.0bc81a0045a4ff39bd5e.png",
+    "static/media/dolearn-plainpng.png": "/dolearn/static/media/dolearn-plainpng.1bb47a2bf193a672c3a4.png",
+    "static/media/towardsRightArrow.png": "/dolearn/static/media/towardsRightArrow.7764ca7c8f78843bb57e.png",
+    "static/media/faqChecked.png": "/dolearn/static/media/faqChecked.bec04d00ddabfeb7301b.png",
+    "index.html": "/dolearn/index.html",
+    "main.e8b47eca.css.map": "/dolearn/static/css/main.e8b47eca.css.map",
+    "main.b949408a.js.map": "/dolearn/static/js/main.b949408a.js.map",
+    "453.941703d3.chunk.js.map": "/dolearn/static/js/453.941703d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8b47eca.css",
+    "static/js/main.b949408a.js"
+  ]
+}
