@@ -5,15 +5,18 @@ import Webdevelopmentbanner from "../assets/Webdevelopment.png";
 
 export default function Courseoffered() {
     let [courseType, setCourseType] = useState(true);
+    const redirectToLink = () => {
+        window.location.href = 'https://share.hsforms.com/1WI-c34qVScyQ6LdFKUgIRgr9ton';
+    };
     return (
         <div className='courseOffPCls'>
             <div className='courseOffCCls'>
                 <div className='courseOffHeadTitleCls'>Courses Offered</div>
                 <div className='courseOffHeadButtonsCls'>
-                    <div className={ courseType === true ? "courseBtnActive" : "courseBtnInActive" }>
+                    <div className={courseType === true ? "courseBtnActive" : "courseBtnInActive"}>
                         <button className='courseBtnCls uiuxCourseBtn' onClick={() => setCourseType(true)}>UI/UX Design</button>
                     </div>
-                    <div className={ courseType === false ? "courseBtnActive" : "courseBtnInActive" }>
+                    <div className={courseType === false ? "courseBtnActive" : "courseBtnInActive"}>
                         <button className='courseBtnCls webDevCourseBtn' onClick={() => setCourseType(false)}>Web Development</button>
                     </div>
                 </div>
@@ -33,7 +36,7 @@ export default function Courseoffered() {
                                 </div>
                             </div>
                             <div className='courseOffFootBtnHeadCls'>
-                                <button className='courseOffFootBtnCls'>Explore Course</button>
+                                <button className='courseOffFootBtnCls' onClick={redirectToLink}>Explore Course</button>
                             </div>
                         </div> :
                         <div className='courseOffContentPCls'>
@@ -50,7 +53,7 @@ export default function Courseoffered() {
                                 </div>
                             </div>
                             <div className='courseOffFootBtnHeadCls'>
-                                <button className='courseOffFootBtnCls'>Explore Course</button>
+                                <button className='courseOffFootBtnCls' onClick={redirectToLink}>Explore Course</button>
                             </div>
                         </div>
                 }

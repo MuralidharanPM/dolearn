@@ -3,6 +3,9 @@ import Navbarlogo from "../assets/dolearn-plainpng.png";
 import "../components/Navbar.css";
 
 export default function Navbar() {
+    const redirectToLink = () => {
+        window.location.href = 'https://share.hsforms.com/1WI-c34qVScyQ6LdFKUgIRgr9ton';
+    };
     return (
         <div className='navbarPCls'>
             <div className='navbarCCls'>
@@ -15,7 +18,7 @@ export default function Navbar() {
                     <button className='navbarBBtnCls'>Course Offered</button>
                     <button className='navbarBBtnCls'>Contact Us</button>
                     <button className='navbarBBtnCls'>FAQ</button>
-                    <button className='navgetStartedBtn'>Get Started</button>
+                    <button className='navgetStartedBtn' onClick={redirectToLink}>Get Started</button>
                 </div>
             </div>
         </div>

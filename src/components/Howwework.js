@@ -8,6 +8,9 @@ import Five from "../assets/caroImagefive.png";
 import VerticalCarousel from './Verticalcarousel';
 
 export default function Howwework() {
+    const redirectToLink = () => {
+        window.location.href = 'https://share.hsforms.com/1WI-c34qVScyQ6LdFKUgIRgr9ton';
+    };
     const items = [One, Two, Three, Four, Five];
     return (
         <div className='howPgPCls'>
@@ -15,8 +18,8 @@ export default function Howwework() {
                 <div className='howWeWorkHeaderCls'>How we work ?</div>
                 <VerticalCarousel items={items} />
                 <div className='howweworkFootCls'>
-                    <button className='exploreBtnCls'>Explore Courses</button>
-                    <button className='getStartBtnCls'>Get Started</button>
+                    <button className='exploreBtnCls' onClick={redirectToLink}>Explore Courses</button>
+                    <button className='getStartBtnCls' onClick={redirectToLink}>Get Started</button>
                 </div>
             </div>
         </div>
